@@ -154,22 +154,9 @@ This suggests that fixing individual ratios does not improve the on-time deliver
 
 ## **Visualizations / Dashboard**
 
-Interactive dashboard built in Python (Plotly): [`Dashboard/delivery_dashboard.html`](Dashboard/delivery_dashboard.html)
+Power BI dashboard — see [`Dashboard/`](Dashboard/) folder.
 
-Download the file and open it in any browser — no server needed. Includes:
-
-* KPI summary cards (overall on-time rate, best/worst market, peak delay hour, highest-risk cuisine)
-* On-time rate by market (horizontal bar)
-* Delivery delay distribution (histogram with 20-min threshold line)
-* On-time rate by hour of day (area chart)
-* On-time rate by cuisine type (color-coded by performance tier)
-* Busyness level vs on-time rate
-* Order size vs on-time rate
-* Order-to-dasher ratio vs on-time rate
-* A/B test simulation results (with p-values annotated)
-* Market 1 vs Market 5 radar comparison
-
-Charts generated from the analysis notebooks are also in [`Graphs/`](Graphs/):
+Charts generated from the analysis notebooks are in [`Graphs/`](Graphs/):
 
 | Chart | Description |
 |---|---|
@@ -185,7 +172,7 @@ Charts generated from the analysis notebooks are also in [`Graphs/`](Graphs/):
 ## **Tools & Technologies**
 
 * **Python:** Pandas, NumPy, Seaborn, Matplotlib, SciPy, Statsmodels
-* **Tableau:** Interactive dashboards
+* **Power BI:** Interactive dashboard
 
 ---
 
