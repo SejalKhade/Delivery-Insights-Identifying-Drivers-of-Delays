@@ -1,0 +1,9 @@
+KPI,Value,Context
+Overall On-Time Rate,21.68,% of 197428 orders delivered on time
+Market 1 On-Time Rate,18.74,Worst performing market
+Market 5 On-Time Rate,24.42,Best performing market
+Market Gap (M5-M1),5.68,Percentage points
+Peak Delay Hour,2,Hour with lowest on-time rate (7.54%)
+Worst Cuisine,Brazilian,Lowest on-time rate by cuisine
+Best Cuisine,Smoothies,Highest on-time rate by cuisine
+High Busy Ratio On-Time Rate,6.0,% on time when very high busy ratio

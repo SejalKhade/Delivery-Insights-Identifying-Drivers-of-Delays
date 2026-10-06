@@ -1,0 +1,7 @@
+Test,Metric,Result,P_Value,Significant
+Chi-square (all markets),On-time rate variation across 6 markets,Chi2=359.69,1.44e-75,Yes
+Z-test (M1 vs M5),Market 1 vs Market 5 on-time rate,Diff=-5.68%,3.62e-54,Yes
+Chi-square (cuisine mix),Bad cuisine distribution M1 vs M5,Chi2=14.78,0.00012,Yes
+Mann-Whitney (order volume),Order volume M1 vs M5,U=37.0,0.064,No
+Spearman (order size M1),Order size vs on-time rate Market 1,r=-0.103,0.0000,Yes
+Spearman (order size M5),Order size vs on-time rate Market 5,r=-0.089,0.0000,Yes

@@ -1,0 +1,5 @@
+Test,Group,On_Time_Rate_Pct,P_Value,Significant,Interpretation
+Reduce Busy Ratio,Control,18.74,0.501,No,Fail to reject H0
+Reduce Busy Ratio,Treatment,18.73,0.501,No,Fail to reject H0
+Reduce Dasher Ratio,Control,18.74,0.296,No,Fail to reject H0
+Reduce Dasher Ratio,Treatment,19.22,0.296,No,Fail to reject H0
