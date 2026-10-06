@@ -154,34 +154,32 @@ This suggests that fixing individual ratios does not improve the on-time deliver
 
 ## **Visualizations / Dashboard**
 
-Tableau Dashboard: https://public.tableau.com/views/SejalKhade/DeliveryInsights?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Interactive dashboard built in Python (Plotly): [`Dashboard/delivery_dashboard.html`](Dashboard/delivery_dashboard.html)
 
-* Histogram of delivery durations with on-time thresholds (15, 20, 30 mins)
-  
-![Image 1](Graphs/output.png)
+Download the file and open it in any browser — no server needed. Includes:
 
-* “Market-Level On-Time Delivery Performance”
-  
-![Image 2](Graphs/output2.png)
+* KPI summary cards (overall on-time rate, best/worst market, peak delay hour, highest-risk cuisine)
+* On-time rate by market (horizontal bar)
+* Delivery delay distribution (histogram with 20-min threshold line)
+* On-time rate by hour of day (area chart)
+* On-time rate by cuisine type (color-coded by performance tier)
+* Busyness level vs on-time rate
+* Order size vs on-time rate
+* Order-to-dasher ratio vs on-time rate
+* A/B test simulation results (with p-values annotated)
+* Market 1 vs Market 5 radar comparison
 
-* On-Time Delivery Performance by Cuisine Type
-  
-![Image 3](Graphs/output3.png)
+Charts generated from the analysis notebooks are also in [`Graphs/`](Graphs/):
 
-* Hourly Trends in Delivery Timeliness
-  
-![Image 4](Graphs/output4.png)
-
-* Impact of Busyness on Delivery Performance
-  
-![Image 5](Graphs/output5.png)
-
-* Delivery Performance by Order Size
-  
-![Image 6](Graphs/output6.png)
-
-* On-Time rate by Order to Dasher Ratio
-![Image 7](Graphs/output7.png)
+| Chart | Description |
+|---|---|
+| `output.png` | Delay distribution histogram |
+| `output2.png` | On-time rate by market |
+| `output3.png` | On-time rate by cuisine type |
+| `output4.png` | Hourly trends in delivery timeliness |
+| `output5.png` | Busyness impact on delivery performance |
+| `output6.png` | Delivery performance by order size |
+| `output7.png` | On-time rate by order-to-dasher ratio |
 ---
 
 ## **Tools & Technologies**
